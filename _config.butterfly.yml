@@ -1,19 +1,13 @@
 # Butterfly 主题站点级配置（覆盖主题默认值）
 # 文档：https://butterfly.js.org/
 
-# 顶部导航
-nav:
-  left:
-    - text: 首页
-      url: /
-    - text: 归档
-      url: /archives/
-    - text: 标签
-      url: /tags/
-    - text: 分类
-      url: /categories/
-    - text: 关于
-      url: /about/
+# 顶部导航（Butterfly v5 格式）
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-heart
 
 # 本地搜索（配合 hexo-generator-search）
 local_search:
@@ -38,6 +32,9 @@ aside:
   card_author:
     enable: true
     description: 基于 Hexo 与 GitHub Pages 的个人博客
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客！顶部菜单浏览各栏目，右上角可搜索与切换深色模式
   card_recent_post:
     enable: true
     limit: 5
@@ -64,6 +61,22 @@ avatar:
 
 # 首页横幅与文章默认封面
 index_img: /img/banner.svg
+index_top_img_height: 420px
+
+# 首页横幅上的打字机副标题
+subtitle:
+  enable: true
+  effect: true
+  source: false
+  sub:
+    - 这里记录我的技术笔记、学习心得与生活随想
+    - 顶部菜单浏览各栏目，右上角可搜索
+
+# 社交链接（侧栏作者卡片下方）
+social:
+  fab fa-github: https://github.com/guijie060304-pixel || GitHub || '#24292e'
+  fas fa-rss: /my-blog/atom.xml || RSS || '#f26522'
+
 cover:
   default_cover:
     - /img/cover-1.svg
