@@ -10,6 +10,10 @@ menu:
   关于: /about/ || fas fa-heart
 
 # 本地搜索（配合 hexo-generator-search）
+search:
+  use: local_search
+  placeholder: 搜索文章...
+
 local_search:
   enable: true
 
