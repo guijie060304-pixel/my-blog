@@ -1,0 +1,9 @@
+{
+  // 粘贴的图片自动存进「文章同名文件夹」
+  "pasteImage.path": "${currentFileDir}/${currentFileNameWithoutExt}",
+  // 自动按「年-月-日-时分秒」命名，不用手动起名
+  "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss",
+  // 自动插入的引用只含文件名（配合 postAsset 解析）
+  "pasteImage.insertPattern": "${imageSyntaxPrefix}${imageFileName}${imageSyntaxSuffix}",
+  "pasteImage.forceUnixStyleSeparator": true
+}
