@@ -1,10 +1,9 @@
 @echo off
-chcp 65001 >nul
 cd /d D:\Project\my-blog
-echo æ­£åœ¨å‘å¸ƒï¼Œè¯·å‹¿å…³é—­çª—å£...
+echo ÕıÔÚ·¢²¼£¬ÇëÎğ¹Ø±Õ´°¿Ú...
 git add -A
 git commit -m "post: update %date%"
 git push
 echo.
-echo å®Œæˆï¼çº¦ 2 åˆ†é’Ÿåä¸Šçº¿ï¼šhttps://guijie060304-pixel.github.io/my-blog/
+echo Íê³É£¡Ô¼ 2 ·ÖÖÓºóÉÏÏß£ºhttps://guijie060304-pixel.github.io/my-blog/
 pause

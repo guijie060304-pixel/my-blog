@@ -1,10 +1,10 @@
 @echo off
-chcp 65001 >nul
 cd /d D:\Project\my-blog
-set /p T=è¯·è¾“å…¥æ–‡ç« æ ‡é¢˜:
-if "%T%"=="" (echo æœªè¾“å…¥æ ‡é¢˜ & pause & exit /b)
+set /p T=ÇëÊäÈëÎÄÕÂ±êÌâ:
+if "%T%"=="" goto end
 hexo new "%T%"
 start "" notepad "source\_posts\%T%.md"
 echo.
-echo æ–‡ç« å·²åˆ›å»ºå¹¶æ‰“å¼€ï¼Œå†™å®ŒååŒå‡»ã€Œå‘å¸ƒä¸Šçº¿.batã€å³å¯
+echo ÎÄÕÂÒÑ´´½¨²¢´ò¿ª£¬Ğ´ÍêºóË«»÷¡¸·¢²¼ÉÏÏß.bat¡¹¼´¿É
+:end
 pause
