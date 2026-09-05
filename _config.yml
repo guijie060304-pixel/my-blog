@@ -120,3 +120,8 @@ deploy:
   type: git
   repo: https://github.com/guijie060304-pixel/my-blog.git
   branch: gh-pages
+
+# Markdown 图片：相对路径解析到文章资源文件夹
+marked:
+  prependRoot: true
+  postAsset: true
