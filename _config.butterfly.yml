@@ -12,6 +12,8 @@ nav:
       url: /tags/
     - text: 分类
       url: /categories/
+    - text: 关于
+      url: /about/
 
 # 本地搜索（配合 hexo-generator-search）
 local_search:
@@ -53,3 +55,30 @@ footer:
     enable: true
     since: 2026
   custom_text: 托管于 GitHub Pages
+
+# 站点图标与头像（路径相对站点根，url_for 会自动补 /my-blog 前缀）
+favicon: /img/favicon.svg
+avatar:
+  img: /img/avatar.svg
+  effect: false
+
+# 首页横幅与文章默认封面
+index_img: /img/banner.svg
+cover:
+  default_cover:
+    - /img/cover-1.svg
+    - /img/cover-2.svg
+    - /img/cover-3.svg
+
+# 评论系统：giscus（基于 GitHub Discussions）
+comments:
+  use: Giscus
+  text: true
+  count: true
+
+giscus:
+  repo: guijie060304-pixel/my-blog
+  repo_id: R_kgDOUPSj6A
+  category_id: DIC_kwDOUPSj6M4DE8KG
+  light_theme: light
+  dark_theme: dark
