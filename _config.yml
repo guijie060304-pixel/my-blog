@@ -97,7 +97,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
+
+# RSS / Atom 订阅
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  content_limit: 140
+  order_by: -date
+
+# 站点地图（供搜索引擎收录）
+sitemap:
+  path: sitemap.xml
+  rel: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

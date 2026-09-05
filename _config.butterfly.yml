@@ -1,0 +1,55 @@
+# Butterfly 主题站点级配置（覆盖主题默认值）
+# 文档：https://butterfly.js.org/
+
+# 顶部导航
+nav:
+  left:
+    - text: 首页
+      url: /
+    - text: 归档
+      url: /archives/
+    - text: 标签
+      url: /tags/
+    - text: 分类
+      url: /categories/
+
+# 本地搜索（配合 hexo-generator-search）
+local_search:
+  enable: true
+
+# 字数统计与阅读时长（hexo-wordcount）
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# 不蒜子站点访问量统计
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# 侧栏
+aside:
+  enable: true
+  card_author:
+    enable: true
+    description: 基于 Hexo 与 GitHub Pages 的个人博客
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+  card_tags:
+    enable: true
+    limit: 20
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: 托管于 GitHub Pages
