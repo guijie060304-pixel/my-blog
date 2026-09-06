@@ -11,6 +11,8 @@ tags:
 
 欢迎来到我的博客！本站基于 [Hexo](https://hexo.io/zh-cn/) 搭建，托管在 GitHub Pages 上。
 
+![博客开张](grand-opening.svg)
+
 ## 建站记录
 
 - 框架：Hexo 7.x + 默认主题 landscape

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101828"/>
+      <stop offset="1" stop-color="#1d2939"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="90" y="60" width="620" height="230" rx="12" fill="#0b1120" stroke="#334155" stroke-width="2"/>
+  <rect x="90" y="60" width="620" height="36" rx="12" fill="#1e293b"/>
+  <circle cx="115" cy="78" r="7" fill="#ef4444"/>
+  <circle cx="140" cy="78" r="7" fill="#f59e0b"/>
+  <circle cx="165" cy="78" r="7" fill="#22c55e"/>
+  <text x="200" y="84" font-family="Consolas,monospace" font-size="15" fill="#94a3b8">terminal — 搭建博客</text>
+  <text x="120" y="135" font-family="Consolas,monospace" font-size="18" fill="#4ade80">$ hexo new 我的第一篇文章</text>
+  <text x="120" y="170" font-family="Consolas,monospace" font-size="18" fill="#38bdf8">$ git push origin main</text>
+  <text x="120" y="205" font-family="Consolas,monospace" font-size="18" fill="#fbbf24">INFO  Deploy done ✓</text>
+  <text x="120" y="240" font-family="Consolas,monospace" font-size="16" fill="#64748b">https://…github.io/my-blog/ 已上线</text>
+  <path d="M 90 380 L 710 380" stroke="#334155" stroke-width="4" stroke-dasharray="12 10"/>
+  <ellipse cx="250" cy="380" rx="34" ry="12" fill="#0b1120" stroke="#ef4444" stroke-width="2"/>
+  <ellipse cx="480" cy="380" rx="34" ry="12" fill="#0b1120" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M 250 322 l 15 26 h -30 z" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <text x="245" y="366" font-size="18" font-weight="bold" fill="#ef4444">!</text>
+  <path d="M 480 322 l 15 26 h -30 z" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <text x="475" y="366" font-size="18" font-weight="bold" fill="#f59e0b">!</text>
+  <line x1="660" y1="380" x2="660" y2="322" stroke="#22c55e" stroke-width="4"/>
+  <rect x="660" y="322" width="52" height="26" fill="#22c55e"/>
+  <text x="560" y="420" font-size="18" fill="#94a3b8">踩坑之路 · 一路向前</text>
+</svg>
