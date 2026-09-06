@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1e3a"/>
+      <stop offset="1" stop-color="#14486e"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4cc9f0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="0.35" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#7dd3fc" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="500" y="30" width="270" height="260" fill="url(#dots)" opacity="0.55"/>
+  <circle cx="600" cy="160" r="160" fill="url(#halo)"/>
+  <circle cx="600" cy="160" r="50" fill="url(#planet)"/>
+  <ellipse cx="600" cy="160" rx="88" ry="15" fill="none" stroke="#bae6fd" stroke-width="3" opacity="0.85" transform="rotate(-18 600 160)"/>
+  <circle cx="150" cy="90" r="3" fill="#e0f2fe" opacity="0.9"/>
+  <circle cx="260" cy="60" r="2" fill="#e0f2fe" opacity="0.7"/>
+  <circle cx="380" cy="120" r="2.5" fill="#e0f2fe" opacity="0.8"/>
+  <circle cx="330" cy="200" r="2" fill="#e0f2fe" opacity="0.6"/>
+  <path d="M 140 78 l 4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z" fill="#e0f2fe" opacity="0.9"/>
+  <path d="M 0 320 C 150 290, 280 350, 430 320 S 690 290, 800 335 L 800 450 L 0 450 Z" fill="#1e5f8a" opacity="0.6"/>
+  <path d="M 0 365 C 180 335, 320 395, 490 360 S 730 330, 800 370 L 800 450 L 0 450 Z" fill="#173a5c" opacity="0.85"/>
+  <path d="M 0 408 C 200 382, 430 440, 800 398 L 800 450 L 0 450 Z" fill="#0e2438"/>
+</svg>

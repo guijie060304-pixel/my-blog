@@ -90,9 +90,9 @@ social:
 
 cover:
   default_cover:
-    - /img/cover-1.svg
-    - /img/cover-2.svg
-    - /img/cover-3.svg
+    - /img/cover-blue.svg
+    - /img/cover-nebula.svg
+    - /img/cover-constellation.svg
 
 # 评论系统：giscus（基于 GitHub Discussions）
 comments:
