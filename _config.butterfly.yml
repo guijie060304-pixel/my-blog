@@ -153,7 +153,7 @@ mermaid:
   code_write: false
   theme: default
 
-# 自定义样式：桌面端两栏互换（侧栏在左，文章在右）；手机端不受影响
+# 自定义样式：桌面端两栏互换（侧栏在左，文章在右）；加宽容器、加大栏间距；手机端不受影响
 inject:
   head:
-    - '<style>@media screen and (min-width:900px){#content-inner.layout{flex-direction:row-reverse}}</style>'
+    - '<style>@media screen and (min-width:900px){#content-inner.layout{flex-direction:row-reverse;max-width:1400px;column-gap:25px}#aside-content{padding-left:0;padding-right:0;width:25%}}</style>'
