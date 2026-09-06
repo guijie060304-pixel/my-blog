@@ -156,4 +156,4 @@ mermaid:
 # 自定义样式：桌面端两栏互换（侧栏在左，文章在右）；手机端不受影响
 inject:
   head:
-    - '<style>@media screen and (min-width:900px){#content-inner .layout{flex-direction:row-reverse}}</style>'
+    - '<style>@media screen and (min-width:900px){#content-inner.layout{flex-direction:row-reverse}}</style>'
