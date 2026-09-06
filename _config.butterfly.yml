@@ -4,6 +4,8 @@
 # 顶部导航（Butterfly v5 格式）
 menu:
   首页: / || fas fa-home
+  说说: /shuoshuo/ || fas fa-comment-dots
+  历程: /timeline/ || fas fa-stream
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
@@ -49,6 +51,11 @@ aside:
   card_tags:
     enable: true
     limit: 20
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    runtime_date: 2026-09-05
 
 # 页脚
 footer:
@@ -128,3 +135,20 @@ error_404:
   enable: true
   subtitle: 页面不存在或已被移动
   background: /img/banner.svg
+
+# 简繁转换（右下角「繁」字按钮）
+translate:
+  enable: true
+  default: 繁
+  defaultEncoding: 2
+
+# 数学公式（KaTeX，写 $...$ 即可渲染）
+math:
+  use: katex
+  per_page: true
+
+# 流程图/时序图（Mermaid）
+mermaid:
+  enable: true
+  code_write: false
+  theme: default
