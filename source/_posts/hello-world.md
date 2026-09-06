@@ -2,11 +2,9 @@
 title: 博客开张
 date: 2026-09-05 21:10:00
 sticky: 1
-categories:
-  - 站务
-tags:
-  - Hexo
-  - GitHub Pages
+description: 博客正式开张：这里会记录建站过程、技术笔记与随想
+categories: [站务]
+tags: [Hexo, GitHub Pages]
 ---
 
 欢迎来到我的博客！本站基于 [Hexo](https://hexo.io/zh-cn/) 搭建，托管在 GitHub Pages 上。
