@@ -5,5 +5,8 @@
   "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss",
   // 自动插入的引用只含文件名（配合 postAsset 解析）
   "pasteImage.insertPattern": "${imageSyntaxPrefix}${imageFileName}${imageSyntaxSuffix}",
-  "pasteImage.forceUnixStyleSeparator": true
+  "pasteImage.forceUnixStyleSeparator": true,
+  // 自动保存：写完 1 秒自动存盘，杜绝「忘了 Ctrl+S 导致发布空文章」
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
 }
