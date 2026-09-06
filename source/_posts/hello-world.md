@@ -1,6 +1,7 @@
 ---
 title: 博客开张
 date: 2026-09-05 21:10:00
+sticky: 1
 categories:
   - 站务
 tags:
